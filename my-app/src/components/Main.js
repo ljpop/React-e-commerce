@@ -1,11 +1,11 @@
 import Menu from './Menu'
 import MainContent from './MainContent'
 
-const Main = () => {
+const Main = ({products}) => {
     return (
         <main >
             <Menu />
-            <MainContent />
+            <MainContent products={products} />
         </main>
     )
 }
